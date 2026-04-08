@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
 
 </head>
 
@@ -24,7 +24,7 @@
 
             <div class="theme-toggle">
                 <label class="switch">
-                    <input type="checkbox" id="themeToggle">
+                    <input type="checkbox" id="theme-toggle">
                     <span class="slider"></span>
                 </label>
                 <span id="themeLabel">Light Mode</span>
@@ -37,10 +37,10 @@
             <h2 id="balance">$0.00</h2>
 
             <div class="actions">
-                <input type="number" id="topUpAmount" placeholder="Top Up Amount" value="100">
+                <input type="number" id="top-up-amount" placeholder="Top Up Amount" value="100">
                 <button onclick="quickAdd('top')">+ Top Up</button>
 
-                <input type="number" id="transferAmount" placeholder="Transfer Amount" value="50">
+                <input type="number" id="transfer-amount" placeholder="Transfer Amount" value="50">
                 <button onclick="quickAdd('transfer')">Transfer</button>
             </div>
         </div>
@@ -62,7 +62,7 @@
 
         <h3>Add Transaction</h3>
 
-        <form id="transactionForm">
+        <form id="transaction-form">
 
             <input type="text" id="description" placeholder="Description" required>
 
@@ -88,15 +88,16 @@
 
         <h3>Transaction History</h3>
 
-        <ul id="transactionList"></ul>
+        <ul id="transaction-list"></ul>
 
 
         <h3>Spending Analysis</h3>
 
-        <canvas id="expenseChart"></canvas>
+        <canvas id="expense-chart"></canvas>
 
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="script.js"></script>
 
 </body>
