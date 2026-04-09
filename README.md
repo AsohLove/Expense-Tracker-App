@@ -31,9 +31,9 @@ This is an expense tracker app that permits an individual to add, view and delet
 - Add tranactions
 - Transaction history
 - Display totals
-    - Total balance
-    - Total income
-    - Total expenses
+  - Total balance
+  - Total income
+  - Total expenses
 - Add transaction data
 
 

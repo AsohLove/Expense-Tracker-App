@@ -7,17 +7,15 @@ body {
   transition: background 0.3s, color 0.3s;
 }
 
-
 .container {
   background: white;
   padding: 25px;
   border-radius: 14px;
   width: 100%;
   max-width: 420px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 25px rgba(0 0 0 10%);
   transition: background 0.3s, color 0.3s;
 }
-
 
 .balance-container {
   text-align: center;
@@ -28,13 +26,11 @@ body {
   margin: 10px 0;
 }
 
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 
 .summary {
   display: flex;
@@ -54,7 +50,6 @@ body {
   color: #e74c3c;
   font-weight: bold;
 }
-
 
 form input {
   width: 100%;
@@ -163,7 +158,6 @@ button:hover {
   }
 }
 
-
 body.dark-mode {
   background: linear-gradient(135deg, #0f172a, #1e293b);
   color: #e0e0e0;
@@ -172,7 +166,7 @@ body.dark-mode {
 body.dark-mode .container {
   background: #1e293b;
   color: #e0e0e0;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+  box-shadow: 0 10px 25px rgba(0 0 0 50%);
 }
 
 body.dark-mode .summary {
