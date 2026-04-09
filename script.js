@@ -180,7 +180,7 @@ renderTransactions()
 updateTotals()
 updateChart()
 
-// Export functions for HTML onclick handlers
+// Have to export these functions that are being used by HTML onclick handlers because of Linters
 window.quickAdd = quickAdd
 window.deleteTransaction = deleteTransaction
 window.filterTransactions = filterTransactions
