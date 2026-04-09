@@ -1,0 +1,127 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.balance-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.income {
+  color: green;
+  font-weight: bold;
+}
+
+.expense {
+  color: red;
+  font-weight: bold;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  transition: background 0.3s, color 0.3s, border 0.3s;
+}
+
+button {
+  padding: 8px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s, border 0.3s;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+#transactionList {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  background: #f9f9f9;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 6px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.transaction .delete {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 95%;
+  }
+}
+
+body.dark-mode {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode .container {
+  background: #1e1e1e;
+  color: #e0e0e0;
+}
+
+body.dark-mode form input {
+  background: #2a2a2a;
+  color: #e0e0e0;
+  border: 1px solid #444;
+}
+
+body.dark-mode button {
+  background: #333;
+  color: #e0e0e0;
+  border: 1px solid #555;
+}
+
+body.dark-mode .transaction {
+  background: #2a2a2a;
+  color: #e0e0e0;
+}
+
+body.dark-mode .income {
+  color: #4caf50;
+}
+
+body.dark-mode .expense {
+  color: #f44336;
+}
