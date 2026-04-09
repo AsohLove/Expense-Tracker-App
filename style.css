@@ -90,6 +90,11 @@ button:hover {
   color: #333;
 }
 
+body.dark-mode button {
+  background: #3b82f6;
+  border: none;
+}
+
 .filters button:hover {
   background: #dcdcdc;
 }
@@ -188,10 +193,6 @@ body.dark-mode button:hover {
   background: #2563eb;
 }
 
-body.dark-mode button {
-  background: #3b82f6;
-  border: none;
-}
 
 body.dark-mode .transaction {
   background: #2a364f;
