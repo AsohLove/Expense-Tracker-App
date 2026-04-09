@@ -1,3 +1,5 @@
+/* global Chart */
+
 const form = document.getElementById('transaction-form')
 const description = document.getElementById('description')
 const amount = document.getElementById('amount')
@@ -177,3 +179,8 @@ function filterTransactions (type) {
 renderTransactions()
 updateTotals()
 updateChart()
+
+// Export functions for HTML onclick handlers
+window.quickAdd = quickAdd
+window.deleteTransaction = deleteTransaction
+window.filterTransactions = filterTransactions
