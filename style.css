@@ -116,11 +116,7 @@ body.dark-mode button {
   transition: background 0.3s, transform 0.15s;
 }
 
-#transfer-amount {
-  margin-top: 20px;
-  padding: 10px;
-}
-
+#transfer-amount,
 #top-up-amount {
   margin-top: 20px;
   padding: 10px;
